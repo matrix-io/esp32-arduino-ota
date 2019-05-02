@@ -1,0 +1,8 @@
+MatrixVoiceAudioServer/sdkconfig.old
+MatrixVoiceAudioServer/sdkconfig
+MatrixVoiceAudioServerNoOTA/sdkconfig.old
+MatrixVoiceAudioServerNoOTA/sdkconfig
+MatrixVoiceAudioServerNoOTA/build
+*.bin
+OTABuilder/build
+.vscode/
