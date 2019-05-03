@@ -37,6 +37,7 @@ To flash the OTA version for the first time, attach the Voice to a Raspberry Pi.
 - Select ESP32 Dev Module as Board, set flash size to 4MB and Upload speed to 460800
 - Change the ssid, password (for your WiFi), ESP_ID, ESP_PASS (you will be asked to enter password when uploading over OTA) to fit your needs
 - Go to "Sketch" -> "Export compiled binary"
+- Move the Starter.ino.esp32.bin file into the starter directory with deploy_ota.sh
 - In the file deploy_ota.sh, change to IP address to the IP your Pi is on.
 - Open a terminal (Linux and Mac should work, tested on Mac), change to the folder where this code is and run from your PC: sh deploy_ota.sh
 - You should see the message: "esptool.py wrapper for MATRIX Voice"
