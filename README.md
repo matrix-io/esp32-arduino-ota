@@ -16,7 +16,7 @@ To get the code running I suggest you first reset the Voice if you have flashed 
 ```bash
 voice_esp32_enable
 ```
-If you get a permission denied, execute the command again. 
+If you get a permission denied, execute the command again with sudo. 
 - Reset memory: 
 ```bash
 esptool.py --chip esp32 --port /dev/ttyS0 --baud 115200 --before default_reset --after hard_reset erase_flash
