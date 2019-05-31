@@ -12,8 +12,11 @@ This guide has been adapted re-worked from https://github.com/Romkabouter/Matrix
 To get the code running I suggest you first reset the Voice if you have flashed it previously
 
 - Follow Step 1 and 2 from this guide https://matrix-io.github.io/matrix-documentation/matrix-voice/esp32/
-- ssh into the pi, execute this command: voice_esp32_enable. If you get a permission denied, execute the command again. 
-- Reset memory: esptool.py --chip esp32 --port /dev/ttyS0 --baud 115200 --before default_reset --after hard_reset erase_flash
+- ssh into the pi, execute this command: 
+```voice_esp32_enable```
+If you get a permission denied, execute the command again. 
+- Reset memory: 
+```esptool.py --chip esp32 --port /dev/ttyS0 --baud 115200 --before default_reset --after hard_reset erase_flash```
 - Reboot the Pi.
 
 ## Install & Setup Arduino IDE w/ ESP32
