@@ -41,7 +41,7 @@ To flash the OTA version for the first time, attach the Voice to a Raspberry Pi.
 - Clone this repo on your PC
 - Copy the folder "MATRIXVoiceOTA" to your Arduino IDE libraries folder
 - Open the starter.ino file in the Arduino IDE
-- Select ESP32 Dev Module as Board, set flash size to 4MB and Upload speed to 460800
+- Select ESP32 Dev Module as Board, set flash size to 4MB and Upload speed to 115200
 - Change the ssid, password (for your WiFi), ESP_ID, ESP_PASS (you will be asked to enter password when uploading over OTA) to fit your needs
 - Go to "Sketch" -> "Export compiled binary"
 - Move the Starter.ino.esp32.bin file into the starter directory with deploy_ota.sh
