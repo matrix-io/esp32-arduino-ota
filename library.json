@@ -1,0 +1,28 @@
+{
+  "name": "MATRIXVoiceESP32ArduinoOTA",
+  "keywords": "arduino, OTA, drivers, matrixvoice, everloop, mic, micarray, hal",
+  "description": "Program your Matrix Voice ESP32 through the Arduino IDE via OTA updates",
+  "homepage": "https://www.matrix.one/products/voice",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpsaturn/esp32-arduino-ota.git"
+  },
+  "version": "0.15.0",
+  "authors": [
+    {
+      "name": "MATRIX Labs",
+      "url": "https://www.matrix.one"
+    },
+    {
+      "name": "@hpsaturn",
+      "email": "hpsaturn@gmail.com",
+      "url": "http://hpsaturn.com",
+      "maintainer": true
+    }
+  ],
+  "build":{
+    "srcDir":"MATRIXVoiceOTA"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}

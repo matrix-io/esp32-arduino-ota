@@ -54,7 +54,6 @@ void MATRIXVoiceOTA::setup() {
 
 void MATRIXVoiceOTA::loop() {
     ArduinoOTA.handle();
-    delay(1000);  
 }
 
 void MATRIXVoiceOTA::setBaud(int baud) {
